@@ -1,0 +1,58 @@
+
+> heba-wedding-invitaion@0.0.0 build
+> ng build
+
+[33m❯[39m Building...
+ERROR TypeError: this.videoRef.nativeElement.play is not a function
+    at e.ngAfterViewInit (file:///D:/Angular%20Project/hebaWeddingInvitaion/.angular/prerender-root/3359a294-3bd8-4bfd-bbcd-871d4df3f224/main.server.mjs:108:601)
+    at sb (file:///D:/Angular%20Project/hebaWeddingInvitaion/.angular/prerender-root/3359a294-3bd8-4bfd-bbcd-871d4df3f224/main.server.mjs:8:14218)
+    at mT (file:///D:/Angular%20Project/hebaWeddingInvitaion/.angular/prerender-root/3359a294-3bd8-4bfd-bbcd-871d4df3f224/main.server.mjs:8:14368)
+    at Pv (file:///D:/Angular%20Project/hebaWeddingInvitaion/.angular/prerender-root/3359a294-3bd8-4bfd-bbcd-871d4df3f224/main.server.mjs:8:14124)
+    at ac (file:///D:/Angular%20Project/hebaWeddingInvitaion/.angular/prerender-root/3359a294-3bd8-4bfd-bbcd-871d4df3f224/main.server.mjs:8:13850)
+    at kx (file:///D:/Angular%20Project/hebaWeddingInvitaion/.angular/prerender-root/3359a294-3bd8-4bfd-bbcd-871d4df3f224/main.server.mjs:8:49171)
+    at Ch (file:///D:/Angular%20Project/hebaWeddingInvitaion/.angular/prerender-root/3359a294-3bd8-4bfd-bbcd-871d4df3f224/main.server.mjs:8:49857)
+    at zy (file:///D:/Angular%20Project/hebaWeddingInvitaion/.angular/prerender-root/3359a294-3bd8-4bfd-bbcd-871d4df3f224/main.server.mjs:8:49686)
+    at Px (file:///D:/Angular%20Project/hebaWeddingInvitaion/.angular/prerender-root/3359a294-3bd8-4bfd-bbcd-871d4df3f224/main.server.mjs:8:49641)
+    at Gy (file:///D:/Angular%20Project/hebaWeddingInvitaion/.angular/prerender-root/3359a294-3bd8-4bfd-bbcd-871d4df3f224/main.server.mjs:8:50004)
+[32m✔[39m Building...
+[35mBrowser bundles[39m      
+[1mInitial chunk files[22m  [2m | [22m[1mNames[22m           [2m | [22m [1mRaw size[22m[2m | [22m[1mEstimated transfer size[22m
+[32mmain-ET7S62KB.js[39m     [2m | [22m[2mmain[22m            [2m | [22m[36m263.99 kB[39m[2m | [22m               [36m73.25 kB[39m
+[32mpolyfills-B6TNHZQ6.js[39m[2m | [22m[2mpolyfills[22m       [2m | [22m [36m34.58 kB[39m[2m | [22m               [36m11.32 kB[39m
+[32mstyles-FVSTFUYX.css[39m  [2m | [22m[2mstyles[22m          [2m | [22m [36m28.70 kB[39m[2m | [22m                [36m4.58 kB[39m
+
+[1m [22m                    [2m | [22m[1mInitial total[22m   [2m | [22m[1m327.27 kB[22m[2m | [22m               [1m89.15 kB[22m
+
+
+[35mServer bundles[39m       
+[1mInitial chunk files[22m  [2m | [22m[1mNames[22m           [2m | [22m [1mRaw size[22m
+[32mserver.mjs[39m           [2m | [22m[2mserver[22m          [2m | [22m  [36m1.34 MB[39m[2m | [22m                       
+[32mmain.server.mjs[39m      [2m | [22m[2mmain.server[22m     [2m | [22m[36m707.59 kB[39m[2m | [22m                       
+[32mpolyfills.server.mjs[39m [2m | [22m[2mpolyfills.server[22m[2m | [22m[36m266.08 kB[39m[2m | [22m                       
+[32mchunk-X2SEQXRR.mjs[39m   [2m | [22m[2m-[22m               [2m | [22m  [36m2.41 kB[39m[2m | [22m                       
+[32mchunk-L2MVFUKD.mjs[39m   [2m | [22m[2m-[22m               [2m | [22m  [36m1.32 kB[39m[2m | [22m                       
+
+[1mLazy chunk files[22m     [2m | [22m[1mNames[22m           [2m | [22m [1mRaw size[22m
+[32mchunk-RHDGF2TI.mjs[39m   [2m | [22m[2mxhr2[22m            [2m | [22m [36m12.14 kB[39m[2m | [22m                       
+[32mchunk-TNO4MGIL.mjs[39m   [2m | [22m[2mxhr2[22m            [2m | [22m [36m12.07 kB[39m[2m | [22m                       
+
+[35mPrerendered 1 static route.[39m
+Application bundle generation failed. [41.560 seconds]
+
+[1m[33m[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1m9 rules skipped due to selector errors:
+  & -> Empty sub-selector
+  & -> Empty sub-selector
+  & -> Empty sub-selector
+  & -> Empty sub-selector
+  & -> Empty sub-selector
+  & -> Empty sub-selector
+  & -> Empty sub-selector
+  & -> Empty sub-selector
+  & -> Empty sub-selector[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mAn error occurred while prerendering route '/'.
+
+[object Object][0m
+
+[39m[22m

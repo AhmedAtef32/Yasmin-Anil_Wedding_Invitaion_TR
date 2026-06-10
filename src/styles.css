@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-gold-300: #eadd9e;
+  --color-gold-400: #d4bc62;
+  --color-gold-500: #c5a03e;
+  --color-gold-600: #ad8228;
+  --color-gold-700: #91661e;
+
+  --font-arabic: 'Amiri', serif;
+  --font-serif: 'Playfair Display', serif;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes fadeOut {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-15px); }
+}
+@keyframes floatHearts {
+  0% { transform: translateY(110vh) scale(0.5); opacity: 0; }
+  10% { opacity: 0.8; }
+  90% { opacity: 0.8; }
+}
+
+.animate-fade-in { animation: fadeIn 1.5s ease-out forwards; }
+.animate-fade-out { animation: fadeOut 1s ease-in forwards; }
+.animate-float { animation: float 4s ease-in-out infinite; }
+.animate-float-hearts { animation: floatHearts 15s linear infinite; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+  background-color: var(--color-gold-300, #faf8f5);
+  background-color: #faf8f5;
+  color: #333;
+  scroll-behavior: smooth;
+}
