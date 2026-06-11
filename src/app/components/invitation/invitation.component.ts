@@ -17,7 +17,7 @@ export class InvitationComponent {
     const eventDate = '20260717';
     const eventTime = '190000';
     const eventEndTime = '230000';
-    const eventLocation = 'Trabzon, Türkiye';
+    const eventLocation = 'Cephanelik Butik Hotel, TRABZON';
     const eventDescription =
       "Yasmin Ghattas ve Anıl Serdar'ın düğününe davetlisiniz";
 
