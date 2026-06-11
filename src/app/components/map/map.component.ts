@@ -23,7 +23,7 @@ const DIRECTIONS_URL =
           >
             Konumumuz
           </h2>
-          <p class="text-gray-600 text-lg md:text-xl font-serif">Trabzon</p>
+          <p class="text-gray-600 text-lg md:text-xl font-serif">     Cephanelik Butik Hotel, TRABZON</p>
         </div>
       </div>
 
